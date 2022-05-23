@@ -1,0 +1,21 @@
+GH Username: Pintor-Francisco
+https://github.com/UNR-Teaching/lab-01-Pintor-Francisco
+
+1.) Type ls to view the contents of your lab directory. Now type the command ls > newfile.txt. Use the ls command again to view the contents of the directory. What has changed? What do you think the > in the previous statement did when combined with the ls command?
+
+	The directory now has a text file under the name "newfile.txt", using > seems to have 		written down the name of all files within the directory into "newfile.txt".
+
+2.) Run the command git status. What does it say about newfile.txt?
+
+	On branch master
+	Your branch is up to date 'origin/master'.
+	
+	Changes to be comitted:
+	(use "git restore --staged <file>..." to unstage)
+		new file: newfile.txt
+		
+3.) Open the file newfile.txt in a editor. Add the line "This is my file listing" to the top of the file and save it. Now run the command git diff. What does this command tell you about your files and their contents? You will need to type 'q' to exit the diff viewer.
+
+	Seems to take a look at the difference between contents found in "newfile.txt", highlights 
+	new additions in green with a plus sign next to the newly added lines and I presume it
+	adds a red highlight for lines that were removed.
